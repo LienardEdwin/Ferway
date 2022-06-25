@@ -1,29 +1,38 @@
 # Description
 
-The analytic plan is not saving
+ Développer une webapp à partir de l'api https://api-ratp.pierre-grimaud.fr/v4/.
 
-https://app.clickup.com/t/2y7phf8
 # What has been done?
 
 ## Common Checklist
 
-- [ ] Le projet doit utiliser React (≥ 16.8.0)
-- [ ] Le code livré doit au maximum respecter les bonnes pratiques standards de développement (formatage, DRY, séparation des responsabilités, composants atomiques, gestion des erreurs, etc)
-- [ ] améliorer librement l’UX/UI de l’application
-- [ ] mettre en place un routing client pour gérer le formulaire via l’url (par exemple en utilisant `react-router-dom` )
-- [ ] déployer l’application sur la plateforme Firebase (via le service Firebase Hosting)
+- [x] Le projet doit utiliser React (≥ 16.8.0)
+- [x] Le code livré doit au maximum respecter les bonnes pratiques standards de développement (formatage, DRY, séparation des responsabilités, composants atomiques, gestion des erreurs, etc)
+- [x] Améliorer librement l’UX/UI de l’application
+- [x] Mettre en place un routing client pour gérer le formulaire via l’url (par exemple en utilisant `react-router-dom` )
+- [x] Déployer l’application sur la plateforme Firebase (via le service Firebase Hosting)
+- [x] Des indications (exhaustives) sur comment installer et lancer l'application en local
+- [x] Un lien (si existant) de la version en ligne 
+- [x] Un rapide (et succinct) bilan de l'exercice (2 difficultés, 2 réussites, 2 évolutions possibles) 
 
+# How to run the project
 
+Lancer la commande `npm install` puis `npm start`.
+Le projet vas se lancer sur `http://localhost:3000`
 
-## Available Scripts
+# Firebase hosting
+https://ferway-test.web.app
 
-In the project directory, you can run:
+# Conclusion
 
-### `npm start`
+## Improvment
+ - Use context instead of react router
+ - Using Test
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-
+## Difficulties
+ - React Router
+ 
+ ## Success
+ - DRY
+ - TypeScript
 
