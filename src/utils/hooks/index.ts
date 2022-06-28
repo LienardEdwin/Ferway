@@ -14,7 +14,6 @@ export function useFetch(url: string) {
                 const data = await response.json()
                 setData(data)
             } catch (err) {
-                console.log('bonjour')
                 setError(true)
             } finally {
                 setLoading(false)
